@@ -1,0 +1,30 @@
+.containerSnake{
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    margin: 100px auto;
+    color: white;
+    position: relative;
+}
+.snake{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.segmentSnake{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: greenyellow;
+    position: absolute;
+    top:200px;
+    left: 100px;
+}
+.pomme{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+}
